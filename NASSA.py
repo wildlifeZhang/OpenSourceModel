@@ -555,7 +555,7 @@ class IdentityLayer(nn.Module):
         return out
 
 
-class NASMS(nn.Module):
+class NASSA(nn.Module):
     # optimal architecture found by NASMS in paper submitted to Journal of the Franklin Institute
     # skip connections:
     #   0:[[14], 
